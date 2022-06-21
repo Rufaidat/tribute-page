@@ -1,0 +1,49 @@
+body {
+  background: lightgrey;
+}
+
+article {
+  text-align: center;
+}
+
+#title {
+  font-size: 2.5em;
+}
+
+#image {
+  max-width: 100%;
+  height: auto;
+  align-self: center;
+  display: block;
+}
+
+#img-div {
+  text-align: center;
+}
+
+p,
+li {
+  font-size: 1.2em;
+  text-align: left;
+  line-height: 1.5em;
+}
+
+header p,
+#centre {
+  text-align: center;
+}
+
+#tribute-info {
+  margin: 0 auto;
+  text-align: center;
+  width: 80%;
+}
+
+/*  ------------------------------------------------
+  MEDIA QUERIES
+  --------------------------------------------------*/
+@media screen and (max-width: 412px) {
+  #tribute-info {
+    width: 100%;
+  }
+}
